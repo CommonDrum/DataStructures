@@ -1,0 +1,3 @@
+/home/karol/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir
+/home/karol/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/karol/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/rebuild_cache.dir
