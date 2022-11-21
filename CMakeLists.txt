@@ -3,4 +3,4 @@ project(DataStructures)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_library(DataStructures library.cpp)
+add_library(DataStructures library.cpp LinkedList.cpp LinkedList.h)
