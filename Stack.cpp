@@ -9,30 +9,31 @@
 template <typename T>
 Stack<T>::Stack(int size) {
     data = new T[size];     // Decide how many elements can be stored in the stack
-    top = data;
+    top = -1;
 }
 
 
 template<typename T>
 T Stack<T>::pop() {
-    return nullptr;
+    if (this->isEmpty()) {
+        return -1;
+    } else{
+        return data[top--];
+    }
 }
 
 template<typename T>
 T Stack<T>::get_top() {
-    if(top == data){
-        return true;
-    }
-    return false;
+    return data[top];
 }
 
 template<typename T>
 bool Stack<T>::isEmpty() {
-    return false;
+   return top == -1;
 }
 
 template<typename T>
 int Stack<T>::size() {
-    return 0;
+    return top + 1;
 }
 

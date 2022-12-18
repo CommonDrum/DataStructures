@@ -9,7 +9,7 @@ template <typename T>
 class Stack {
 private:
     T * data;
-    T * top;
+    int top;
 
 public:
 /*
@@ -24,8 +24,8 @@ size() returns the size of stack.
     T pop();
     T get_top();
 
-    static bool isEmpty();
-    static int size();
+    bool isEmpty();
+    int size();
 };
 
 
